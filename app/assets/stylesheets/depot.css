@@ -154,3 +154,66 @@
   font-weight: bold;
   margin-right: 2em;
 }
+
+#store .entry form, #store .entry form div {
+  display: inline
+}
+
+/* Styles for the cart in the main page */
+#store .cart_title {
+  font: 150% bold;
+  color: #595;
+}
+
+#store .total_line, #store .item_price {
+  text-align: right;
+}
+
+#store .total_line .total_cell {
+  border-top: 1px solid #595;
+}
+
+#cart, #cart table {
+  font-size: smaller;
+  color: white;
+}
+
+#cart table {
+  border-top: 1px dotted #595;
+  border-bottom:  1px dotted #595;
+  margin-bottom:  10px;
+}
+
+/* Styles for order form */
+
+.depot_form fieldset {
+  background-color: #efe;
+}
+
+.depot_form legend {
+  color: #dfd;
+  background-color: #141;
+  font-family: sans-serif;
+  padding: 0.3em 1em;
+}
+
+.depot_form label {
+  width: 5em;
+  float: left;
+  text-align: right;
+  padding-top: 0.2em;
+  margin-right: 0.1em;
+  display: block;
+}
+
+.depot_form select, .depot_form textarea, .depot_form input {
+  margin-left: 0.5em;
+}
+
+.depot_form .submit {
+  margin-left: 4em;
+}
+
+.depot_form div {
+  margin: 0.5em 0;
+}
